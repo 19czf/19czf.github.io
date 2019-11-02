@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Lorne的十九创作坊</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://19czf.com/"/>
+  <updated>2019-11-02T02:43:41.237Z</updated>
+  <id>http://19czf.com/</id>
+  
+  <author>
+    <name>Lorne</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo常用命令</title>
+    <link href="http://19czf.com/2019/11/02/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    <id>http://19czf.com/2019/11/02/hexo常用命令/</id>
+    <published>2019-11-02T02:08:58.000Z</published>
+    <updated>2019-11-02T02:43:41.237Z</updated>
+    
+    <content type="html"><![CDATA[<p>记录一下hexo发表文章的过程，免得每次发表文章的时候都打开官网。</p><h3 id="新建文章"><a href="#新建文章" class="headerlink" title="新建文章"></a>新建文章</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new "post title with whitespace"</span><br></pre></td></tr></table></figure><table><thead><tr><th>选项</th><th>描述</th></tr></thead><tbody><tr><td>-p</td><td>自定义新文章的路径</td></tr><tr><td>-r</td><td>如果存在同名文章，将其替换</td></tr><tr><td>-s</td><td>文章的 Slug，作为新文章的文件名和发布后的 URL</td></tr></tbody></table><h3 id="生成文件"><a href="#生成文件" class="headerlink" title="生成文件"></a>生成文件</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure><h3 id="本地预览"><a href="#本地预览" class="headerlink" title="本地预览"></a>本地预览</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure><table><thead><tr><th>选项</th><th>描述</th></tr></thead><tbody><tr><td>-p, –port</td><td>重设端口</td></tr><tr><td>-s, –static</td><td>只使用静态文件</td></tr><tr><td>-l, –log</td><td>启动日记记录，使用覆盖记录格式</td></tr></tbody></table><h3 id="发布"><a href="#发布" class="headerlink" title="发布"></a>发布</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure><p>提示错误：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ERROR Deployer not found: git</span><br></pre></td></tr></table></figure><p>解决办法：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo npm install --save hexo-deployer-git</span><br></pre></td></tr></table></figure><h3 id="清除缓存"><a href="#清除缓存" class="headerlink" title="清除缓存"></a>清除缓存</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;记录一下hexo发表文章的过程，免得每次发表文章的时候都打开官网。&lt;/p&gt;
+&lt;h3 id=&quot;新建文章&quot;&gt;&lt;a href=&quot;#新建文章&quot; class=&quot;headerlink&quot; title=&quot;新建文章&quot;&gt;&lt;/a&gt;新建文章&lt;/h3&gt;&lt;figure class=&quot;highlight
+      
+    
+    </summary>
+    
+      <category term="常用工具" scheme="http://19czf.com/categories/%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="HEXO" scheme="http://19czf.com/tags/HEXO/"/>
+    
+      <category term="工具" scheme="http://19czf.com/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://19czf.com/2019/11/02/hello-world/"/>
+    <id>http://19czf.com/2019/11/02/hello-world/</id>
+    <published>2019-11-02T02:07:23.638Z</published>
+    <updated>2019-11-02T02:07:23.638Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>GIT的常用命令记录</title>
+    <link href="http://19czf.com/2019/10/13/GIT%E7%9A%84%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E8%AE%B0%E5%BD%95/"/>
+    <id>http://19czf.com/2019/10/13/GIT的常用命令记录/</id>
+    <published>2019-10-13T08:58:01.000Z</published>
+    <updated>2019-11-02T02:12:38.892Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="设置git用户信息，会在提交记录里面显示，跟授权账号密码没有关系"><a href="#设置git用户信息，会在提交记录里面显示，跟授权账号密码没有关系" class="headerlink" title="设置git用户信息，会在提交记录里面显示，跟授权账号密码没有关系"></a>设置git用户信息，会在提交记录里面显示，跟授权账号密码没有关系</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name &quot;Your Name Comes Here&quot;</span><br><span class="line">$ git config --global user.email &quot;you@yourdomain.example.com&quot;</span><br></pre></td></tr></table></figure><h4 id="创建仓库-就得到-git-一个空的仓库-那么当前路径为工作树"><a href="#创建仓库-就得到-git-一个空的仓库-那么当前路径为工作树" class="headerlink" title="创建仓库 就得到.git  一个空的仓库  那么当前路径为工作树"></a>创建仓库 就得到.git  一个空的仓库  那么当前路径为工作树</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git init</span><br></pre></td></tr></table></figure><h4 id="增加忽略文件"><a href="#增加忽略文件" class="headerlink" title="增加忽略文件"></a>增加忽略文件</h4><p>需要忽略比如编译产生的中间文件、本地环境配置问价等<br>把忽略的文件名加到  .gitignore，这样git add . 就不会所有的都添加了<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">echo &quot;xxx.o&quot; &gt; .gitignore</span><br></pre></td></tr></table></figure></p><h4 id="提交"><a href="#提交" class="headerlink" title="提交"></a>提交</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1、git add . 或者跟文件名</span><br><span class="line">2、git commit -m “xxxx” or  git commit再填写信息</span><br><span class="line">3、git commit --amend修改提交信息</span><br></pre></td></tr></table></figure><h4 id="推送到远程"><a href="#推送到远程" class="headerlink" title="推送到远程"></a>推送到远程</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push origin master</span><br></pre></td></tr></table></figure><h4 id="工程克隆"><a href="#工程克隆" class="headerlink" title="工程克隆"></a>工程克隆</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ cp -R $WORK/.git /tmp/m2doc.git</span><br><span class="line">$ cd /tmp</span><br><span class="line">$ git clone m2doc.git m2doc-copy</span><br></pre></td></tr></table></figure><p>m2doc-copy 里面除了包含,git 之外还有文件</p><h4 id="拉取远程代码"><a href="#拉取远程代码" class="headerlink" title="拉取远程代码"></a>拉取远程代码</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git clone http://xxxxxx.git -b 分支名（不写默认master）</span><br></pre></td></tr></table></figure><h4 id="查看历史记录"><a href="#查看历史记录" class="headerlink" title="查看历史记录"></a>查看历史记录</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">git log 查看历史版本</span><br><span class="line">git show eef5e798e4f102fe76398fcd21da300159f161c 一般只用钱几个字符即可 如git show eef5e7</span><br><span class="line">git show HEAD显示当前分枝的细节</span><br><span class="line">$ git show HEAD^ # 查看 HEAD 的父版本更新细节</span><br><span class="line">$ git show HEAD^^ # 查看 HEAD 的祖父版本更新细节</span><br><span class="line">$ git show HEAD~4 # 查看 HEAD 的祖父之祖父的版本更新细节</span><br></pre></td></tr></table></figure><h4 id="提交代码相关操作"><a href="#提交代码相关操作" class="headerlink" title="提交代码相关操作"></a>提交代码相关操作</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">git status 查看修改的内容</span><br><span class="line">git checkout  test1.c 恢复文件   如果已经git add如那就恢复到add之前，（或者commit）</span><br><span class="line">git status 先看一下add 中的文件 </span><br><span class="line">$ git add 改动的文件</span><br><span class="line">$ git commit</span><br><span class="line">$ git pull</span><br><span class="line">$ git push</span><br></pre></td></tr></table></figure><h4 id="查看远程库的信息"><a href="#查看远程库的信息" class="headerlink" title="查看远程库的信息"></a>查看远程库的信息</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote -v</span><br></pre></td></tr></table></figure><h4 id="分支操作"><a href="#分支操作" class="headerlink" title="分支操作"></a>分支操作</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">git brunch xxx 创建XXX分枝</span><br><span class="line">git brunch 查看分支</span><br><span class="line">git checkout XXX 切换分支</span><br><span class="line">git checkout  master 切换主分支</span><br><span class="line">git  merge XXX 合并分支</span><br><span class="line">git brunch -d xxx 删除分支</span><br></pre></td></tr></table></figure><h4 id="撤回push"><a href="#撤回push" class="headerlink" title="撤回push"></a>撤回push</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git reset --hard 63e386a81741f9261cdcfc353b4822a11cc543f8</span><br><span class="line">git push origin master --force</span><br></pre></td></tr></table></figure><h4 id="增加远程仓库"><a href="#增加远程仓库" class="headerlink" title="增加远程仓库"></a>增加远程仓库</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add 仓库名  路径链接</span><br></pre></td></tr></table></figure><h4 id="关于git-reset"><a href="#关于git-reset" class="headerlink" title="关于git reset"></a>关于git reset</h4><p>reset用的不好，很容易出问题。正常情况我是能不用就不用的<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git reset HEAD 如果后面什么都不跟的话 就是上一次add 里面的全部撤销了 ，不会恢复文件内容，只是撤销add</span><br><span class="line">git reset HEAD XXX/XXX/XXX.java 就是对某个文件进行撤销了，不会恢复文件内容 </span><br><span class="line">git reset HEAD test1.c ，不会恢复文件内容</span><br><span class="line">git reset 指定版本  不会改变文件内容，恢复到add之前的状态</span><br><span class="line">git reset --soft 指定版本  不会改变文件内容恢复到add 之后的状态</span><br></pre></td></tr></table></figure></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;设置git用户信息，会在提交记录里面显示，跟授权账号密码没有关系&quot;&gt;&lt;a href=&quot;#设置git用户信息，会在提交记录里面显示，跟授权账号密码没有关系&quot; class=&quot;headerlink&quot; title=&quot;设置git用户信息，会在提交记录里面显示，跟授权账号密码
+      
+    
+    </summary>
+    
+      <category term="常用工具" scheme="http://19czf.com/categories/%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="工具" scheme="http://19czf.com/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+      <category term="GIT" scheme="http://19czf.com/tags/GIT/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>c</title>
+    <link href="http://19czf.com/2019/10/13/c/"/>
+    <id>http://19czf.com/2019/10/13/c/</id>
+    <published>2019-10-13T04:46:52.000Z</published>
+    <updated>2019-11-02T02:07:23.638Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="常用工具" scheme="http://19czf.com/categories/%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="tags2" scheme="http://19czf.com/tags/tags2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>b</title>
+    <link href="http://19czf.com/2019/10/13/b/"/>
+    <id>http://19czf.com/2019/10/13/b/</id>
+    <published>2019-10-13T04:40:57.000Z</published>
+    <updated>2019-11-02T02:07:23.637Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="技术笔记" scheme="http://19czf.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="tags2" scheme="http://19czf.com/tags/tags2/"/>
+    
+      <category term="tags1" scheme="http://19czf.com/tags/tags1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>a</title>
+    <link href="http://19czf.com/2019/10/13/a/"/>
+    <id>http://19czf.com/2019/10/13/a/</id>
+    <published>2019-10-13T04:40:12.000Z</published>
+    <updated>2019-11-02T02:07:23.637Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="阅后感悟" scheme="http://19czf.com/categories/%E9%98%85%E5%90%8E%E6%84%9F%E6%82%9F/"/>
+    
+    
+      <category term="tags2" scheme="http://19czf.com/tags/tags2/"/>
+    
+  </entry>
+  
+</feed>
